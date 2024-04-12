@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title="Teaching" sideBarActiveItemID="teaching">
+  <div>
+    <div class="text-3xl font-bold mb-5">Teaching</div>
+  </div>
+  
+  <div class="pb-12 mt-5">
+      <text class="w-full text-lg">
+        As part of my PhD, I gave tutorials (monitorat) for the following lectures in mathematics and programming:
+      <br><br>
+        <ul class="list-disc mx-6 mb-10 grid gap-2">
+          <li>
+            <a class="link-accent" href="https://www.edu.bio.ens.psl.eu/spip.php?article42&lang=fr" target="_blank"> Mathematics II : What biologists might like to know </a>
+          <p>M1 Imalis at IBENS, ENS Paris</p>
+          </li>
+          <li>
+            <a class="link-accent" href="https://www.edu.bio.ens.psl.eu/spip.php?article32&lang=fr" target="_blank">  Mathematics I : What a biologist should know </a>
+            <p>L3 Biology at IBENS, ENS Paris</p>
+          </li>
+          <li>
+            <a class="link-accent" href="https://www.edu.bio.ens.psl.eu/spip.php?article280&lang=fr" target="_blank">  Open desk for coding skills </a>
+            <p>L3 Biology at IBENS, ENS Paris</p>
+          </li>
+        </ul>
+    </div>
+</BaseLayout>

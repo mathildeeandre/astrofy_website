@@ -5,88 +5,66 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
-  </div>
-
-  <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <div class="text-3xl w-full font-bold">Short Resume</div>
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
+    <div class="text-2xl w-full font-bold">Education</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
+      title="PhD Student in Probability"
+      coauthors="Under the supervision of Emmanuel Schertzer, Jean-Jil Duchamps and Amaury Lambert"
+      subtitle="From November 2023, Collège de France, ENS Paris and University of Vienna"
+    >
+    </TimeLineElement>
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
+      title="M2 Mathématiques de l'aléatoire, Probabilité et Statistiques"
+      subtitle="2022-2023, IMO, Orsay, France"
+    >
+    <a class="link-accent" href="https://www.imo.universite-paris-saclay.fr/en/students/masters-programs/mathematics-and-applications/m2/probabilites-et-statistiques/" target="_blank">MDA webpage</a>
+    </TimeLineElement>
+    <TimeLineElement
+    title="École Polytechnique, X2019"
+    subtitle="2019-2023, Palaiseau, France"
+  >
+  3rd yead specialization in Applied Mathematics and Probability <a class="link-accent" href="https://synapses.polytechnique.fr/catalogue/2018-2019/parcours/291/PA-MAP-pa-mathematiques-appliquees?from=D1/" target="_blank">(PA MAP)</a>
+  </TimeLineElement>
   </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
+    <div class="text-2xl w-full font-bold">Experience</div>
   </div>
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
+    title="Research Internship (M2 MDA)"
+    coauthors="Under the supervision of Emmanuel Schertzer and Amaury Lambert"
+    subtitle="April - August 2023, Collège de France and ENS Paris, France"
+  >
+  </TimeLineElement>
+  <TimeLineElement
+  title="Research Internship (3rd year at École Polytechnique)"
+  coauthors="Under the supervision of Emmanuel Schertzer"
+  subtitle="April - July 2022, University of Vienna, Austria"
+  >
+  </TimeLineElement>
+
+  <TimeLineElement
+  title="Engineer Internship (2nd year at École Polytechnique)"
+  coauthors="Data scientist at Gens de Confiance"
+  subtitle="June - August 2021, Nantes, France"
+  >
+  </TimeLineElement>
+
+  <TimeLineElement
+  title="Teaching Internship (1st year at École Polytechnique)"
+  coauthors="Teacher in mathematics at Lycée Français de Barcelone and UPC Catalunya"
+  subtitle="October 2019 - April 2020, Barcelona, Spain"
+  >
+  </TimeLineElement>
   </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certifications</div>
-  </div>
-
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-    <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
-    </li>
-  </ul>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
-  </div>
-
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-  </ul>
+  
 </BaseLayout>
