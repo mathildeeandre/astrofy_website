@@ -8,11 +8,35 @@ module.exports = {
 	daisyui: {
 		themes: [
 		  {
-			light: {
-			  ...require("daisyui/src/theming/themes")["cupcake"],
-			  primary: "4E008E",
-			  accent: "DD4124",
-			},
+			light:
+			{
+				"color-scheme": "light",
+				"primary" : "4E008E",
+				"secondary": "#ef9fbc",
+				"accent" : "DD4124",
+				"neutral": "#291334",
+				"base-100": "#faf7f5",
+				"base-200": "#efeae6",
+				"base-300": "#e7e2df",
+				"base-content": "#291334",
+				"--rounded-btn": "1.9rem",
+				"--tab-border": "2px",
+				"--tab-radius": "0.7rem",
+			  },
+			dark: {
+				"color-scheme": "light",
+				"primary" : "4E008E",
+				"secondary": "#ef9fbc",
+				"accent" : "DD4124",
+				"neutral": "#291334",
+				"base-100": "#faf7f5",
+				"base-200": "#efeae6",
+				"base-300": "#e7e2df",
+				"base-content": "#291334",
+				"--rounded-btn": "1.9rem",
+				"--tab-border": "2px",
+				"--tab-radius": "0.7rem",
+			  },
 		  },
 		],
 	  },
