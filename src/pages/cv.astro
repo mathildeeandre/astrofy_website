@@ -5,11 +5,11 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Short Resume</div>
+    <div class="text-3xl w-full font-bold">Resume</div>
   </div>
 
   <div class="mb-5">
-    <div class="text-2xl w-full font-bold">Education</div>
+    <div class="text-xl w-full font-bold">Education</div>
   </div>
 
   <div class="time-line-container grid gap-4 mb-10">
@@ -29,21 +29,15 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     title="École Polytechnique, X2019"
     subtitle="2019-2023, Palaiseau, France"
   >
-  <a class="link-accent"href="https://programmes.polytechnique.edu/cycle-ingenieur-polytechnicien/cycle-ingenieur-polytechnicien" target="_blank">Engineering curriculum</a> with a specialization in applied mathematics and probability theory
   </TimeLineElement>
   </div>
 
   <div class="mb-5">
-    <div class="text-2xl w-full font-bold">Experience</div>
+    <div class="text-xl w-full font-bold">Research internships</div>
   </div>
 
   <div class="time-line-container mb-10">
-    <TimeLineElement
-    title="Teaching assistant in maths-bio"
-    coauthors="BSc/MSc students"
-    subtitle="2023-2024, IBENS, ENS Paris, France"
-  >
-  </TimeLineElement>
+
     <TimeLineElement
     title="Research Internship (M2)"
     coauthors="Under the supervision of Emmanuel Schertzer and Amaury Lambert"
@@ -57,10 +51,24 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   >
   </TimeLineElement>
 
+  </div>
+
+  <div class="mb-5">
+    <div class="text-xl w-full font-bold">Teaching experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+    title="Teaching assistant in maths-bio"
+    coauthors="BSc/MSc students"
+    subtitle="2023-2024, IBENS, ENS Paris, France"
+  >
+  </TimeLineElement>
+  
   <TimeLineElement
-  title="Engineering Internship"
-  coauthors="Data scientist at Gens de Confiance"
-  subtitle="June - August 2021, Nantes, France"
+  title="Mentoring in mathematics and physics"
+  coauthors="Lycée Français de Barcelone"
+  subtitle="October 2019 - June 2020, Barcelona, Spain"
   >
   </TimeLineElement>
 
@@ -71,6 +79,12 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   >
   </TimeLineElement>
   </div>
+  </div>
 
   
+  <div class="pb-12 mt-5">
+    <text class="w-full text-s">
+      <a class="link-accent" href="mathildeeandre.github.io/public/CV.pdf" target="_blank">My CV in PDF (last updated 04/2024)</a>
+  </div>
+ 
 </BaseLayout>
