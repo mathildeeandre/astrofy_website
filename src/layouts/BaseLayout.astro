@@ -22,7 +22,15 @@ const {
 <!doctype html>
 <html lang="en" data-theme="cupcake">
   <head>
-    <BaseHead title={title} description={description} image={image} , ogType={ogType} />
+    <!-- Google tag (gtag.js) -->
+  <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-PP8CR7KY5R"></script>
+	<script type="text/partytown">
+  window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+      gtag('config', 'G-PP8CR7KY5R');
+</script>
+<BaseHead title={title} description={description} image={image} , ogType={ogType} />
     {TRANSITION_API && <ViewTransitions />}
   </head>
   <head>
